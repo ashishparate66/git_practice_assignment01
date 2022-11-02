@@ -3,7 +3,8 @@ function CheckPalindrome(str){
   for(let i=str.length-1;i>=0;i--){
     bag=bag+string[i];
   }
-  if(str==bag){
+  if(string===bag){
+
     return true;
   }
   return false;
